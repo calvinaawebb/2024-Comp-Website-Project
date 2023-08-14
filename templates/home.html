@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Revo Technologies</title>
+    <link rel="stylesheet" href='/static/style.css'>
+    <link rel="shortcut icon" href="static/favicon.ico"/>
+
+  </head>
+  <body> 
+  <div class="navbar">
+    <a href="/" style="padding: 12px 5px;"><img src="static/favicon.ico" alt="Revo Logo" style="width: 75px; height: auto"></a>
+    <a href="/positions"><div class="hover-underline-animation">Positions</div></a>
+    <a href="/services"><div class="hover-underline-animation">Services</div></a>
+    <a href="/about"><div class="hover-underline-animation">About</div></a>
+  </div>
+  <div class = "fixed-bg">
+    <div class="main">
+        <h1 style="color: black;">REVO TECHNOLOGIES<br>INNOVATING TOMORROW.</h1>
+        <h2 style="color: black;">TRANSFORMING BUSINESSES THROUGH IT SOLUTIONS. <br> JOIN US ON THE DIGITAL JOURNEY.</h2>
+
+    </div>
+  </div>
+  <div class = "fixed-bg1">
+    <div class="grid">
+      <div class="left"><p class="quotestyle">Welcome to Revo Technologies<br>where innovation meets technology!</p></div>
+      <div class="right">
+        <div id="threejs-container">
+          <canvas id="threejs-canvas"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class = "body2">
+    <p class="hover-underline-animation">Discover the future of IT solutions..<br> explore our cutting-edge services today.</p>
+
+  <script type="module" src="{{ url_for('static', filename='my_script.js') }}"></script>
+  </body>
+</html>
